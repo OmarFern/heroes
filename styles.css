@@ -15,7 +15,7 @@ body {
     body {
        /* background-image: url('./cielo-rojo-dark.jpg');*/
         background-size: cover;
-        background-position: center;
+        background-position: center;height: 1px;
         background-repeat: no-repeat;
     }
 }
@@ -46,6 +46,7 @@ main.index{
 }
 main.index h1{
     color: lightgray;
+    font-size: 50px;
 }
 img{
     width: 100%;

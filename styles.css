@@ -19,6 +19,9 @@ main.index h1{
 }
 img{
     width: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.8); /* White border with transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
 }
 p.index{
     padding-left: 30%;
@@ -46,4 +49,26 @@ div.detail{
 main ul li a{
     text-decoration: none;
     color: gray;
+}
+
+/* Style for the 'volver' button */
+button.volver {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+button.volver:hover {
+    background-color: #45a049; /* Darker green on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
 }

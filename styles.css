@@ -119,3 +119,10 @@ canvas {
     height: 100%;
     z-index: -1; /* Ensure it stays in the background */
 }
+
+/* Remove bullet points from the unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
